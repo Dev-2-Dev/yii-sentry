@@ -100,12 +100,7 @@ class RSentryLogRoute extends CLogRoute {
             $format = explode("\n", $log[0]);
             $title = strip_tags($format[0]);
             
-            $ident = $sentry->captureMessage($title, array(
-                // XX: Not entirely sure how this works, lack of documentation
-                'extra'=>array(
-                    'category'=>$log[2],
-                ),
-            ), array(
+            $ident = $sentry->captureMessage($title, array(), array(
                 'level'=>$log[1],
                 'timestamp'=>$log[3],
             ));
