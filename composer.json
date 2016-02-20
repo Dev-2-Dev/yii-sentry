@@ -1,5 +1,5 @@
 {
-  "name": "yii-sentry/yii-sentry",
+  "name": "maltson/yii-sentry",
   "type": "library",
   "description": "Sentry log route for Yii framework",
   "keywords": ["log", "logging", "yii"],
