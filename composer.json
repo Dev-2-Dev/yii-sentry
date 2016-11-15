@@ -10,6 +10,6 @@
     }
   ],
   "require": {
-    "raven/raven": "^0.13.0"
+    "sentry/sentry": "^1.5"
   }
 }
