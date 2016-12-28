@@ -1,15 +1,24 @@
 {
-  "name": "maltson/yii-sentry",
-  "type": "library",
+  "name": "Dev-2-Dev/yii-sentry",
   "description": "Sentry log route for Yii framework",
-  "keywords": ["log", "logging", "yii"],
+  "version": "1.1.1",
+  "type": "library",
+  "homepage": "https://www.devtodev.com/",
+  "keywords": [
+    "devtodev",
+    "log",
+    "logging",
+    "yii"
+  ],
   "authors": [
     {
-      "name": "Michael Nel",
-      "email": "michael.a.nel1@gmail.com"
+      "name": "Devtodev Team",
+      "email": "info@devtodev.com"
     }
   ],
   "require": {
-    "sentry/sentry": "^1.5"
-  }
+    "php": ">=5.3",
+    "sentry/sentry": "=>1.6"
+  },
+  "minimum-stability": "dev"
 }
